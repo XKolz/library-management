@@ -43,7 +43,8 @@ cd library-management-system
 ### 2. Build and Start the Docker Containers
 
 ```bash
-docker-compose up --build
+# docker-compose up --build
+docker compose up --build
 ```
 
 This will build and start both the **Frontend API** (on port `8000`) and the **Backend API** (on port `8001`).

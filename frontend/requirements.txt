@@ -4,4 +4,5 @@ sqlalchemy
 pydantic
 requests
 databases
-psycopg2
+# psycopg2
+psycopg2-binary

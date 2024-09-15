@@ -1,0 +1,17 @@
+version: '3'
+services:
+  frontend_api:
+    build: ./frontend
+    ports:
+      - "8000:8000"
+    networks:
+      - library-net
+  backend_api:
+    build: ./backend
+    ports:
+      - "8001:8001"
+    networks:
+      - library-net
+networks:
+  library-net:
+    driver: bridge

@@ -3,9 +3,7 @@ from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker
 
 # Database connection URL
-# SQLALCHEMY_DATABASE_URL = "sqlite:///./backend.db"  # For frontend
-# SQLALCHEMY_DATABASE_URL = "postgres://postgres.vwosafkatzeiwcunpfel:Kinging654321%21@aws-0-eu-central-1.pooler.supabase.com:6543/postgres"
-SQLALCHEMY_DATABASE_URL="postgresql://postgres.lbdgaxqfzgygtothhxiz:Kinging654321!@aws-0-eu-central-1.pooler.supabase.com:6543/postgres"
+SQLALCHEMY_DATABASE_URL = "sqlite:///./backend.db"  # For frontend
 # Alternatively, "sqlite:///./backend.db" for backend
 
 # Create the database engine
